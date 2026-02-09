@@ -3,6 +3,9 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>Welcome to my app!</div>
+    <div>Welcome to my app!
+      <StickerGallery></StickerGallery>
+      <StickerDisplay></StickerDisplay>
+    </div>
   );
 }
